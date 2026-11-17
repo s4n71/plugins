@@ -1,0 +1,11 @@
+{
+  "name": "plugins",
+  "owner": { "name": "Santi" },
+  "plugins": [
+    {
+      "name": "mi-plugin",
+      "source": "./mi-plugin",
+      "description": "Comandos de ejemplo para resumir y revisar textos"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "mi-plugin",
+  "description": "Comandos de ejemplo para resumir y revisar textos",
+  "version": "1.0.0",
+  "author": { "name": "Santi" }
+}
