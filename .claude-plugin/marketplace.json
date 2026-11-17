@@ -1,7 +1,49 @@
 {
   "name": "plugins",
-  "owner": { "name": "Santi" },
+  "owner": {
+    "name": "Santi"
+  },
   "plugins": [
+    {
+      "name": "ui-ux-behaves",
+      "source": "./ui-ux-behaves",
+      "description": "A design-system-agnostic UI/UX rule suite for software people depend on: every screen state gets a behave key (table.noResults, field.invalid, action.undo) with rules for accessibility, responsiveness and copy, grounded in Norman, Nielsen, Gestalt and UX writing, and free of deceptive patterns."
+    },
+    {
+      "name": "data",
+      "source": "./data",
+      "description": "Write SQL, explore datasets, and generate insights faster. Build visualizations and dashboards, and turn raw data into clear stories for stakeholders."
+    },
+    {
+      "name": "frontend-design",
+      "source": "./frontend-design",
+      "description": "Frontend design skill for UI/UX implementation"
+    },
+    {
+      "name": "skill-creator",
+      "source": "./skill-creator",
+      "description": "Create new skills, improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals to test a skill, or benchmark skill performance with variance analysis."
+    },
+    {
+      "name": "caveman",
+      "source": "./caveman",
+      "description": "Make Claude answer short and to the point: answer or code first, no filler, no repeated questions. A concise mode that saves reading time and output tokens."
+    },
+    {
+      "name": "superpowers",
+      "source": "./superpowers",
+      "description": "Core skills library for Claude Code: TDD, debugging, collaboration patterns, and proven techniques"
+    },
+    {
+      "name": "humanizer",
+      "source": "./humanizer",
+      "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says."
+    },
+    {
+      "name": "pdf-viewer",
+      "source": "./pdf-viewer",
+      "description": "View, annotate, and sign PDFs in a live interactive viewer. Mark up contracts, fill forms with visual feedback, stamp approvals, and place signatures — then download the annotated copy."
+    },
     {
       "name": "mi-plugin",
       "source": "./mi-plugin",
